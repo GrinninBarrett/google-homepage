@@ -7,13 +7,142 @@ body {
 
 #viewport {
     position: absolute;
+    display: flex;
+    flex-direction: row;
     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
 }
 
-.logo {
-    display: block;
-    text-align: center;
+#main-header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    position: fixed;
+    height: 47px;
+    width: 100%;
+    margin: 0;
+}
 
+.header-link {
+    display: inline-flex;
+    text-decoration: none;
+    color: #222;
+    font-size: 0.81rem;
+    align-items: center;
+
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+#header-link-left {
+    margin-left: 10px;
+    margin-top: 7px;
+    display: inline-flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header-link-right {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 7px;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.header-link-left {
+    padding-left: 15px;
+}
+
+.header-link-right {
+    padding-right: 15px;
+}
+
+a > img {
+    height: 18px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#user {
+    border: 1px solid #222;
+    border-radius: 50px;
+    height: 22px;
+    opacity: .7;
+}
+
+#user:hover {
+    opacity: 1;
+}
+
+
+.logo {
+
+    margin: 80px auto 0 auto;
+    padding: 100px 0 20px 0;
+    height: 100px;
+}
+
+@media only screen and (max-height: 750px) {
+    .logo {
+    margin: 55px auto 0 auto;
+    }
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 42px;
+    width: 570px;
+    padding: 1px 7px 1px 7px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+
+
+
+input {
+    height: 38px;
+    width: 540px;
+    border: none;
+    font-size: 16px;
+    margin: 2px 0 2px 0;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.searchbar:hover {
+    box-shadow: -2px -2px 3px #eee, 2px 2px 3px #ccc, 2px -2px 3px #eee, 
+        -2px 2px 3px #eee;
+    border: none;
+}
+
+.searchbar-image {
+    height: 18px;
+}
+
+#magnifying-glass {
+    padding-left: 7px;
+}
+
+#microphone {
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 7px;
 }
