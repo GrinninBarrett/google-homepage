@@ -4,6 +4,8 @@ This project was an exercise done while studying independently using [The Odin P
 
 Below, I have decided to leave my original comments on the project, which included thoughts on the project before starting, during development, and after completion.
 
+It being one of my first projects ever, looking back at the code, I notice some very strange and even downright wrong stuff in there. However, I am going to leave it, both to prevent breaking it and to show that I have learned better now.
+
 
 ## Project Screenshot
 
