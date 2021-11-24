@@ -1,8 +1,20 @@
-# Part 1 - Before the Project
+# Google Homepage Recreation
+
+This project was an exercise done while studying independently using [The Odin Project](https://www.theodinproject.com/) in July 2020. The goal was to use CSS to recreate the Google Homepage as accurately as possible. Of course, it is not a functional search site, nor is it an attempt to trick others into thinking it is the real Google homepage. Its existence is solely to have practiced and learned CSS, and to show that I am able to take a visual design and create it very closely using CSS.
+
+Below, I have decided to leave my original comments on the project, which included thoughts on the project before starting, during development, and after completion.
+
+
+## Project Screenshot
+
+![Google Homepage screenshot](./images/google-homepage.png)
+
+
+## Part 1 - Before the Project
 
 This project appears to be a recreation of the Google homepage, given the title of the project folder we were told to create. I will do my best to complete the project as well as it can be completed, but will use the experience to learn from my mistakes. I will reflect upon whatever mistakes I made and discuss what I learned from them after completing this project.
 
-# Part 2 - During the Project
+## Part 2 - During the Project
 
 I had a really hard time getting the favicon to work for some reason. Eventually, after several changes to the file type and extension, as well as the html code and pathway, I went back to the orginial way I had it just to see, and it magically worked. I'm almost 100% positive I had already done it that way (as I had done in previous sites), but somehow it just worked even though it hadn't been working before.
 
@@ -10,7 +22,7 @@ The biggest challenge has been getting the page to look as identical to the actu
 
 I've finalized the general layout, and figured out a bit of a "hacky" way to get around the .searchbox:hover issue. I used "box-sizing: border-box:", but that shrunk the element before hover, and caused it to grow on hover. So I applied a "transform: scale(0.996)" property on hover (that number was achieved after several tries while tinkering around with it) and it now applies the box shadow correctly (at least visually correctly; I'm sure there are better ways to do this). The box shadow now looks about as similar to Google's as I think I'd ever be able to get it.
 
-# Part 3 - After the Project
+## Part 3 - After the Project
 
 I definitely learned a lot while doing this project. It seemed so simple at first, but as I dug in, I quickly realized it wasn't quite as easy as I expected. I thought making a basic layout like that would be simple, and I guess now that I've done it, it would be simpler now. 
 
