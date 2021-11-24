@@ -1,10 +1,10 @@
 # Google Homepage Recreation
 
-This project was an exercise done while studying independently using [The Odin Project](https://www.theodinproject.com/) in July 2020. The goal was to use CSS to recreate the Google Homepage as accurately as possible. Of course, it is not a functional search site, nor is it an attempt to trick others into thinking it is the real Google homepage. Its existence is solely to have practiced and learned CSS, and to show that I am able to take a visual design and create it very closely using CSS.
+This project was an exercise done while studying independently using [The Odin Project](https://www.theodinproject.com/) in July 2020. The goal was to use CSS to recreate the Google Homepage as accurately as possible. Of course, it is not a functional search site, nor is it an attempt to trick others into thinking it is the real Google homepage. Its existence is solely to have practiced and learned CSS, and to show that I am able to take a visual design and create it very closely using CSS. The site is not hosted on GitHub Pages or elsewhere to avoid it potentially being misinterpreted as a deceptive site.
 
 Below, I have decided to leave my original comments on the project, which included thoughts on the project before starting, during development, and after completion.
 
-It being one of my first projects ever, looking back at the code, I notice some very strange and even downright wrong stuff in there. However, I am going to leave it, both to prevent breaking it and to show that I have learned better now.
+It being one of my first projects ever, looking back at the code, I notice some very strange and even downright wrong stuff in there. However, I am going to leave it, both to prevent breaking it and to show that I have learned better now. 
 
 
 ## Project Screenshot
